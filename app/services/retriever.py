@@ -12,7 +12,7 @@ from app.services.catalog import load_catalog
 catalog = load_catalog()
 
 model = SentenceTransformer(
-    "all-MiniLM-L6-v2"
+    "all-MiniLM-L6-v2",
     device="cpu"
 )
 
