@@ -1,0 +1,1170 @@
+[
+  {
+    "name": "Verify G+ Cognitive Ability",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/verify-g-cognitive-ability/",
+    "description": "Measures general cognitive ability including verbal, numerical, and inductive reasoning. Suitable for all job levels. Short adaptive assessment. Predicts learning potential and job performance across roles.",
+    "test_type": "A",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional",
+      "manager",
+      "senior manager",
+      "executive",
+      "director"
+    ],
+    "skills": [
+      "Verbal Reasoning",
+      "General Mental Ability",
+      "general intelligence",
+      "Inductive Reasoning",
+      "reasoning",
+      "graduate",
+      "cognitive",
+      "all levels",
+      "learning ability",
+      "aptitude",
+      "Numerical Reasoning",
+      "entry level"
+    ]
+  },
+  {
+    "name": "Verify Verbal Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/verify-verbal-reasoning/",
+    "description": "Measures verbal reasoning ability - understanding written passages and drawing logical conclusions. Suitable for roles requiring strong communication and language skills.",
+    "test_type": "A",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional",
+      "manager"
+    ],
+    "skills": [
+      "Verbal Reasoning",
+      "language",
+      "writing",
+      "reasoning",
+      "comprehension",
+      "reading",
+      "communication",
+      "verbal",
+      "Reading Comprehension",
+      "Language Skills"
+    ]
+  },
+  {
+    "name": "Verify Numerical Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/verify-numerical-reasoning/",
+    "description": "Measures numerical reasoning ability including interpreting data, charts, and graphs. Suitable for finance, analytics, and data-heavy roles.",
+    "test_type": "A",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional",
+      "manager"
+    ],
+    "skills": [
+      "math",
+      "numbers",
+      "data",
+      "finance",
+      "statistics",
+      "Mathematical Ability",
+      "charts",
+      "graphs",
+      "Data Interpretation",
+      "Numerical Reasoning",
+      "analytics",
+      "numerical"
+    ]
+  },
+  {
+    "name": "Verify Inductive Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/verify-inductive-reasoning/",
+    "description": "Measures inductive reasoning - identifying patterns and logical rules in abstract information. Useful for technology, engineering, and analytical roles.",
+    "test_type": "A",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional"
+    ],
+    "skills": [
+      "Inductive Reasoning",
+      "inductive",
+      "reasoning",
+      "Pattern Recognition",
+      "problem solving",
+      "Logical Thinking",
+      "engineering",
+      "abstract",
+      "logical",
+      "technology",
+      "patterns",
+      "Abstract Reasoning"
+    ]
+  },
+  {
+    "name": "Verify Deductive Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/verify-deductive-reasoning/",
+    "description": "Measures deductive reasoning ability - applying rules logically to reach conclusions. Relevant for compliance, law, and analytical roles.",
+    "test_type": "A",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional",
+      "manager"
+    ],
+    "skills": [
+      "reasoning",
+      "conclusions",
+      "Deductive Reasoning",
+      "Logical Thinking",
+      "compliance",
+      "logical",
+      "rules",
+      "law",
+      "deductive",
+      "Rule Application"
+    ]
+  },
+  {
+    "name": "OPQ32r",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/opq32r/",
+    "description": "Occupational Personality Questionnaire. Measures 32 personality characteristics relevant to work performance. Used for selection and development at all levels. Predicts leadership, teamwork, and behavioral competencies.",
+    "test_type": "P",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional",
+      "manager",
+      "senior manager",
+      "executive",
+      "director"
+    ],
+    "skills": [
+      "Behavioral Competencies",
+      "competencies",
+      "character",
+      "Leadership",
+      "leadership",
+      "Personality",
+      "Adaptability",
+      "behavior",
+      "OPQ",
+      "personality",
+      "soft skills",
+      "work style",
+      "behaviour",
+      "Teamwork",
+      "culture fit"
+    ]
+  },
+  {
+    "name": "MQ - Motivation Questionnaire",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/motivation-questionnaire-mq/",
+    "description": "Measures 18 motivational dimensions including achievement, learning, recognition, and work-life balance. Helps understand what drives individual performance and engagement.",
+    "test_type": "P",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional",
+      "manager",
+      "senior manager"
+    ],
+    "skills": [
+      "Work Values",
+      "engagement",
+      "culture",
+      "Motivation",
+      "motivation",
+      "retention",
+      "Engagement",
+      "drive",
+      "incentives",
+      "values",
+      "what drives",
+      "Drive"
+    ]
+  },
+  {
+    "name": "Java 8 (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/java-8-new/",
+    "description": "Knowledge test for Java 8 programming language. Tests OOP concepts, collections, lambdas, streams, and core Java features. For software developers and engineers.",
+    "test_type": "K",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional"
+    ],
+    "skills": [
+      "developer",
+      "object oriented",
+      "software",
+      "backend",
+      "OOP",
+      "Java",
+      "coding",
+      "java",
+      "java 8",
+      "programming",
+      "Software Development",
+      "Programming"
+    ]
+  },
+  {
+    "name": "Core Java (Advanced Level)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/core-java-advanced-level-new/",
+    "description": "Advanced Java knowledge assessment covering multithreading, design patterns, JVM internals, and enterprise-grade Java. For senior developers.",
+    "test_type": "K",
+    "job_levels": [
+      "mid-professional",
+      "manager",
+      "senior manager"
+    ],
+    "skills": [
+      "spring",
+      "enterprise",
+      "backend",
+      "JVM",
+      "senior developer",
+      "advanced java",
+      "java",
+      "Enterprise Java",
+      "design patterns",
+      "multithreading",
+      "Design Patterns",
+      "Multithreading",
+      "Advanced Java"
+    ]
+  },
+  {
+    "name": "Python (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/python-new/",
+    "description": "Knowledge test for Python programming. Covers syntax, data structures, OOP in Python, libraries, and scripting. For Python developers and data engineers.",
+    "test_type": "K",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional"
+    ],
+    "skills": [
+      "developer",
+      "data science",
+      "machine learning",
+      "automation",
+      "data",
+      "python",
+      "backend",
+      "ML",
+      "scripting",
+      "Data Structures",
+      "Python",
+      "Scripting",
+      "programming",
+      "Programming"
+    ]
+  },
+  {
+    "name": "SQL (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/sql-new/",
+    "description": "Tests SQL knowledge including queries, joins, aggregations, subqueries, and database design. For data analysts, database administrators, and backend developers.",
+    "test_type": "K",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional"
+    ],
+    "skills": [
+      "queries",
+      "joins",
+      "Database Design",
+      "Data Querying",
+      "DBA",
+      "data",
+      "database",
+      "SQL",
+      "Database",
+      "aggregation",
+      "data analyst"
+    ]
+  },
+  {
+    "name": "JavaScript (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/javascript-new/",
+    "description": "Tests JavaScript knowledge including ES6+, DOM manipulation, async programming, and modern frameworks awareness. For frontend and full-stack developers.",
+    "test_type": "K",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional"
+    ],
+    "skills": [
+      "frontend",
+      "JavaScript",
+      "react",
+      "browser",
+      "Web Development",
+      "ES6",
+      "JS",
+      "web developer",
+      "javascript",
+      "Frontend Development",
+      "node",
+      "full stack"
+    ]
+  },
+  {
+    "name": "Automata - Fix the Code",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/automata-fix-the-code/",
+    "description": "Coding simulation where candidates debug and fix broken code. Tests practical programming skills, debugging ability, and code comprehension across multiple languages.",
+    "test_type": "S",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional"
+    ],
+    "skills": [
+      "fix",
+      "developer",
+      "Problem Solving",
+      "software",
+      "coding",
+      "Code Comprehension",
+      "practical",
+      "simulation",
+      "debugging",
+      "code",
+      "Debugging",
+      "hands-on",
+      "programming",
+      "Programming"
+    ]
+  },
+  {
+    "name": "Automata Pro",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/automata-pro/",
+    "description": "Advanced coding simulation for software engineers. Realistic IDE environment with full coding challenges requiring writing algorithms and solving complex programming problems.",
+    "test_type": "S",
+    "job_levels": [
+      "mid-professional",
+      "manager"
+    ],
+    "skills": [
+      "developer",
+      "Problem Solving",
+      "senior",
+      "IDE",
+      "coding",
+      "Software Engineering",
+      "Algorithm Design",
+      "simulation",
+      "complex",
+      "software engineer",
+      "algorithm",
+      "programming",
+      "Coding"
+    ]
+  },
+  {
+    "name": "Technology Professional 8.0 Solution",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/technology-professional-8-0-solution/",
+    "description": "Comprehensive assessment for technology professionals. Combines cognitive ability, personality, and technical knowledge suitable for IT and software roles.",
+    "test_type": "A,P,K",
+    "job_levels": [
+      "mid-professional",
+      "manager"
+    ],
+    "skills": [
+      "IT Skills",
+      "developer",
+      "tech professional",
+      "Technology Aptitude",
+      "engineer",
+      "software",
+      "Cognitive Ability",
+      "Personality",
+      "IT",
+      "technology",
+      "comprehensive"
+    ]
+  },
+  {
+    "name": "General Ability - Short Form",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/general-ability-short-form/",
+    "description": "Short version of general cognitive ability test. Measures verbal and numerical reasoning quickly. Used for volume hiring and screening.",
+    "test_type": "A",
+    "job_levels": [
+      "entry",
+      "graduate"
+    ],
+    "skills": [
+      "Verbal Reasoning",
+      "short",
+      "graduate",
+      "general ability",
+      "General Ability",
+      "aptitude",
+      "quick",
+      "volume",
+      "Numerical Reasoning",
+      "entry level",
+      "screening"
+    ]
+  },
+  {
+    "name": "Numerical Reasoning - Graduate Level",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/numerical-reasoning-graduate-level/",
+    "description": "Graduate-level numerical reasoning test. Appropriate for graduate schemes and entry-level professional roles requiring data interpretation.",
+    "test_type": "A",
+    "job_levels": [
+      "graduate",
+      "entry"
+    ],
+    "skills": [
+      "graduate",
+      "numbers",
+      "data",
+      "analyst",
+      "scheme",
+      "Data Interpretation",
+      "Numerical Reasoning",
+      "entry",
+      "numerical"
+    ]
+  },
+  {
+    "name": "Verbal Reasoning - Graduate Level",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/verbal-reasoning-graduate-level/",
+    "description": "Graduate-level verbal reasoning assessment measuring reading comprehension and logical conclusions from text.",
+    "test_type": "A",
+    "job_levels": [
+      "graduate",
+      "entry"
+    ],
+    "skills": [
+      "Verbal Reasoning",
+      "comprehension",
+      "graduate",
+      "reading",
+      "scheme",
+      "verbal",
+      "entry",
+      "Reading Comprehension",
+      "language"
+    ]
+  },
+  {
+    "name": "Workplace English Language Test (WELT)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/workplace-english-language-test/",
+    "description": "Assesses English language proficiency in a workplace context. Tests reading, listening, and writing skills. Used for roles requiring professional English.",
+    "test_type": "K",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional"
+    ],
+    "skills": [
+      "multinational",
+      "writing",
+      "Business English",
+      "english",
+      "English Proficiency",
+      "reading",
+      "communication",
+      "business english",
+      "proficiency",
+      "ESL",
+      "Communication",
+      "language"
+    ]
+  },
+  {
+    "name": "Retail Skills Solution",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/retail-skills-solution/",
+    "description": "Comprehensive retail assessment covering customer service, numerical skills, and retail situational judgment. Designed for frontline retail roles.",
+    "test_type": "A,S",
+    "job_levels": [
+      "entry"
+    ],
+    "skills": [
+      "shop",
+      "frontline",
+      "Numerical Ability",
+      "retail",
+      "customer service",
+      "Retail Skills",
+      "Situational Judgment",
+      "Customer Service",
+      "sales assistant",
+      "customer facing",
+      "store"
+    ]
+  },
+  {
+    "name": "Customer Service Phone Solution",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/customer-service-phone-solution/",
+    "description": "Simulates customer service phone interactions. Evaluates handling of difficult customers, problem resolution, and professional communication.",
+    "test_type": "S",
+    "job_levels": [
+      "entry",
+      "graduate"
+    ],
+    "skills": [
+      "customer service",
+      "call center",
+      "helpdesk",
+      "customer facing",
+      "phone",
+      "BPO",
+      "Customer Service",
+      "communication",
+      "customer support",
+      "Empathy",
+      "Communication",
+      "Problem Resolution"
+    ]
+  },
+  {
+    "name": "Sales Representative Solution",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/sales-representative-solution/",
+    "description": "Assesses sales aptitude including persuasion, resilience, drive, and commercial awareness. For sales roles from entry to senior.",
+    "test_type": "A,P",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional"
+    ],
+    "skills": [
+      "sales",
+      "revenue",
+      "Sales Aptitude",
+      "commercial",
+      "SDR",
+      "selling",
+      "Resilience",
+      "account manager",
+      "Commercial Awareness",
+      "business development",
+      "BDR",
+      "persuasion",
+      "Drive",
+      "Persuasion"
+    ]
+  },
+  {
+    "name": "Situational Judgement Test - Manager",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/situational-judgement-test-manager/",
+    "description": "Situational judgment test for management roles. Presents realistic management scenarios and evaluates decision quality, people management, and leadership judgement.",
+    "test_type": "S",
+    "job_levels": [
+      "manager",
+      "senior manager"
+    ],
+    "skills": [
+      "people management",
+      "Decision Making",
+      "Judgment",
+      "situational",
+      "manager",
+      "team lead",
+      "management",
+      "Leadership",
+      "leadership",
+      "People Management",
+      "SJT",
+      "decision making"
+    ]
+  },
+  {
+    "name": "Graduate 8.0 Solution",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/graduate-8-0-solution/",
+    "description": "Comprehensive graduate assessment covering verbal, numerical, and inductive reasoning plus personality. Ideal for graduate schemes and early-career hiring.",
+    "test_type": "A,P",
+    "job_levels": [
+      "graduate",
+      "entry"
+    ],
+    "skills": [
+      "Verbal Reasoning",
+      "Inductive Reasoning",
+      "reasoning",
+      "graduate",
+      "early career",
+      "Personality",
+      "entry",
+      "university",
+      "personality",
+      "Numerical Reasoning",
+      "comprehensive",
+      "scheme",
+      "campus"
+    ]
+  },
+  {
+    "name": "MX - Management & Leadership Report",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/management-and-leadership-report-mlr/",
+    "description": "Personality-based report providing insight into management and leadership potential. Based on OPQ32. Identifies leadership strengths and development areas.",
+    "test_type": "P",
+    "job_levels": [
+      "manager",
+      "senior manager",
+      "executive",
+      "director"
+    ],
+    "skills": [
+      "strategic",
+      "management",
+      "Strategic Thinking",
+      "senior",
+      "leadership potential",
+      "Leadership",
+      "leadership",
+      "succession",
+      "Management",
+      "executive",
+      "C-suite",
+      "director",
+      "Executive Presence"
+    ]
+  },
+  {
+    "name": "Occupational Personality Questionnaire (OPQ) - Short Form",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/opq-short-form/",
+    "description": "Shorter version of OPQ personality assessment. Measures key personality dimensions for work. Useful when time is limited.",
+    "test_type": "P",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional",
+      "manager"
+    ],
+    "skills": [
+      "short",
+      "Behavioral Competencies",
+      "Personality",
+      "OPQ",
+      "behavior",
+      "quick",
+      "personality",
+      "volume",
+      "work style",
+      "Work Style",
+      "screening"
+    ]
+  },
+  {
+    "name": "Call Center - Customer Service",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/call-center-customer-service/",
+    "description": "Assessment designed for call center and customer service roles. Tests communication, problem solving, and customer interaction skills.",
+    "test_type": "A,S",
+    "job_levels": [
+      "entry"
+    ],
+    "skills": [
+      "Call Handling",
+      "Problem Solving",
+      "call center",
+      "customer service",
+      "support",
+      "helpdesk",
+      "phone",
+      "Customer Service",
+      "communication",
+      "entry level",
+      "Communication",
+      "BPO"
+    ]
+  },
+  {
+    "name": "Workplace Safety Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/workplace-safety/",
+    "description": "Evaluates safety attitudes, risk perception, and safety behavior relevant to operational and industrial roles. Used in manufacturing, logistics, and construction.",
+    "test_type": "P,K",
+    "job_levels": [
+      "entry",
+      "graduate"
+    ],
+    "skills": [
+      "industrial",
+      "risk",
+      "logistics",
+      "Compliance",
+      "HSE",
+      "safety",
+      "Risk Assessment",
+      "compliance",
+      "manufacturing",
+      "Safety Awareness",
+      "construction",
+      "workplace safety"
+    ]
+  },
+  {
+    "name": "Mechanical Comprehension",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/mechanical-comprehension/",
+    "description": "Tests understanding of mechanical principles, forces, tools, and physical concepts. Used for technical, engineering, and trades roles.",
+    "test_type": "A",
+    "job_levels": [
+      "entry",
+      "graduate"
+    ],
+    "skills": [
+      "Technical Understanding",
+      "forces",
+      "Mechanical Aptitude",
+      "engineering",
+      "trades",
+      "Physics",
+      "manufacturing",
+      "automotive",
+      "mechanical",
+      "technical",
+      "tools",
+      "physics"
+    ]
+  },
+  {
+    "name": "Checking",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/checking/",
+    "description": "Speed and accuracy test measuring attention to detail. Compares items quickly and accurately. Used for administrative, data entry, and clerical roles.",
+    "test_type": "A",
+    "job_levels": [
+      "entry"
+    ],
+    "skills": [
+      "Clerical Ability",
+      "checking",
+      "admin",
+      "administrative",
+      "Attention to Detail",
+      "accuracy",
+      "Accuracy",
+      "Speed",
+      "clerical",
+      "attention to detail",
+      "data entry",
+      "speed"
+    ]
+  },
+  {
+    "name": "Calculation",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/calculation/",
+    "description": "Basic arithmetic and calculation test for clerical and administrative roles. Tests speed and accuracy with numerical calculations.",
+    "test_type": "A",
+    "job_levels": [
+      "entry"
+    ],
+    "skills": [
+      "teller",
+      "numbers",
+      "arithmetic",
+      "finance",
+      "Arithmetic",
+      "admin",
+      "Numerical Calculation",
+      "basic math",
+      "Accuracy",
+      "calculation",
+      "clerical",
+      "cashier"
+    ]
+  },
+  {
+    "name": "Microsoft Excel (Intermediate Level) - New",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/microsoft-excel-intermediate-level-new/",
+    "description": "Tests intermediate Excel skills including formulas, pivot tables, charts, and data management. For analysts and professionals using Excel regularly.",
+    "test_type": "K,S",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional"
+    ],
+    "skills": [
+      "formulas",
+      "spreadsheet",
+      "Data Analysis",
+      "Excel",
+      "office",
+      "analyst",
+      "data",
+      "Microsoft",
+      "admin",
+      "pivot table",
+      "Office Skills",
+      "excel",
+      "Spreadsheets"
+    ]
+  },
+  {
+    "name": "Graduate Managerial Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/graduate-managerial-assessment/",
+    "description": "Comprehensive battery for graduate management hires. Includes numerical, verbal, inductive reasoning and personality. Identifies management potential early career.",
+    "test_type": "A,P",
+    "job_levels": [
+      "graduate"
+    ],
+    "skills": [
+      "reasoning",
+      "management",
+      "graduate",
+      "early career",
+      "leadership",
+      "Reasoning Ability",
+      "Personality",
+      "potential",
+      "Leadership Potential",
+      "Management Potential",
+      "comprehensive",
+      "scheme"
+    ]
+  },
+  {
+    "name": "Agile Software Development",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/agile-software-development-new/",
+    "description": "Tests knowledge of Agile methodologies including Scrum, Kanban, sprint planning, and agile principles. For software teams and project managers.",
+    "test_type": "K",
+    "job_levels": [
+      "mid-professional",
+      "manager"
+    ],
+    "skills": [
+      "Kanban",
+      "kanban",
+      "project management",
+      "developer",
+      "Agile",
+      "sprint",
+      "software",
+      "product manager",
+      "scrum",
+      "Project Management",
+      "Scrum",
+      "agile",
+      "PM"
+    ]
+  },
+  {
+    "name": "Data Entry Speed & Accuracy",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/data-entry-speed-and-accuracy/",
+    "description": "Simulates data entry tasks measuring typing speed and accuracy. Used for data entry, administrative, and back-office roles.",
+    "test_type": "S",
+    "job_levels": [
+      "entry"
+    ],
+    "skills": [
+      "back office",
+      "clerical",
+      "admin",
+      "administrative",
+      "Attention to Detail",
+      "accuracy",
+      "typing",
+      "Accuracy",
+      "Data Entry",
+      "speed",
+      "Typing Speed",
+      "data entry"
+    ]
+  },
+  {
+    "name": "Scenarios for Management",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/scenarios-for-management/",
+    "description": "Situational judgment scenarios specifically for people management roles. Tests handling of team conflicts, performance management, and delegation.",
+    "test_type": "S",
+    "job_levels": [
+      "manager",
+      "senior manager"
+    ],
+    "skills": [
+      "people management",
+      "team lead",
+      "supervisor",
+      "manager",
+      "management",
+      "performance",
+      "People Management",
+      "Delegation",
+      "Performance Management",
+      "delegation",
+      "conflict",
+      "Conflict Resolution"
+    ]
+  },
+  {
+    "name": "Financial Analyst Solution",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/financial-analyst-solution/",
+    "description": "Comprehensive assessment for financial analysts. Covers numerical reasoning, attention to detail, and financial knowledge. Suitable for banking, investment, and corporate finance.",
+    "test_type": "A,K",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional"
+    ],
+    "skills": [
+      "banking",
+      "investment",
+      "accounting",
+      "FP&A",
+      "CFA",
+      "Financial Analysis",
+      "analyst",
+      "Financial Knowledge",
+      "finance",
+      "corporate finance",
+      "Attention to Detail",
+      "Numerical Reasoning",
+      "financial analyst"
+    ]
+  },
+  {
+    "name": "Supply Chain & Logistics",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/supply-chain-and-logistics/",
+    "description": "Tests knowledge of supply chain management, inventory, logistics operations, and procurement. For operations and supply chain professionals.",
+    "test_type": "K",
+    "job_levels": [
+      "mid-professional",
+      "manager"
+    ],
+    "skills": [
+      "warehouse",
+      "Supply Chain",
+      "procurement",
+      "logistics",
+      "supply chain",
+      "FMCG",
+      "Logistics",
+      "Procurement",
+      "distribution",
+      "Inventory Management",
+      "inventory",
+      "operations"
+    ]
+  },
+  {
+    "name": "C++ (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/c-plus-plus-new/",
+    "description": "Knowledge test for C++ programming. Covers OOP, memory management, STL, and systems programming in C++. For software and systems engineers.",
+    "test_type": "K",
+    "job_levels": [
+      "mid-professional",
+      "manager"
+    ],
+    "skills": [
+      "Systems Programming",
+      "developer",
+      "Memory Management",
+      "OOP",
+      "C++",
+      "backend",
+      "systems",
+      "automotive",
+      "cpp",
+      "embedded",
+      "gaming",
+      "defense",
+      "programming"
+    ]
+  },
+  {
+    "name": "Amazon Web Services (AWS)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/amazon-web-services/",
+    "description": "Tests AWS cloud knowledge including compute, storage, networking, security, and architecture. For cloud engineers and architects.",
+    "test_type": "K",
+    "job_levels": [
+      "mid-professional",
+      "manager"
+    ],
+    "skills": [
+      "Infrastructure",
+      "cloud",
+      "DevOps",
+      "architect",
+      "serverless",
+      "Cloud Computing",
+      "Amazon",
+      "infrastructure",
+      "cloud engineer",
+      "S3",
+      "EC2",
+      "AWS"
+    ]
+  },
+  {
+    "name": "Cybersecurity Analyst",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/cybersecurity-analyst/",
+    "description": "Tests cybersecurity knowledge including threat analysis, security operations, incident response, and security frameworks. For security analysts and professionals.",
+    "test_type": "K",
+    "job_levels": [
+      "mid-professional",
+      "manager"
+    ],
+    "skills": [
+      "Cybersecurity",
+      "Threat Analysis",
+      "SIEM",
+      "analyst",
+      "Incident Response",
+      "SOC",
+      "pen test",
+      "Security Operations",
+      "incident response",
+      "hacking",
+      "cybersecurity",
+      "security",
+      "threat",
+      "infosec"
+    ]
+  },
+  {
+    "name": "Project Management Professional",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/project-management-professional/",
+    "description": "Tests project management knowledge including planning, risk management, stakeholder management, and PMI principles. For PMs and project leads.",
+    "test_type": "K",
+    "job_levels": [
+      "mid-professional",
+      "manager",
+      "senior manager"
+    ],
+    "skills": [
+      "project management",
+      "Stakeholder Management",
+      "stakeholder",
+      "planning",
+      "risk",
+      "program",
+      "Planning",
+      "PMP",
+      "Project Management",
+      "delivery",
+      "Risk Management",
+      "PMO",
+      "PM"
+    ]
+  },
+  {
+    "name": "Numerical Reasoning - Manager Level",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/numerical-reasoning-manager-level/",
+    "description": "Management-level numerical reasoning. Tests interpreting complex business data and financial information for strategic decisions.",
+    "test_type": "A",
+    "job_levels": [
+      "manager",
+      "senior manager",
+      "executive"
+    ],
+    "skills": [
+      "strategic",
+      "manager",
+      "business",
+      "senior",
+      "Business Analytics",
+      "data",
+      "financial",
+      "Financial Acumen",
+      "Numerical Reasoning",
+      "executive",
+      "numerical"
+    ]
+  },
+  {
+    "name": "Verbal Reasoning - Manager Level",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/verbal-reasoning-manager-level/",
+    "description": "Management-level verbal reasoning test. Tests comprehension of complex written business communications and reports.",
+    "test_type": "A",
+    "job_levels": [
+      "manager",
+      "senior manager",
+      "executive"
+    ],
+    "skills": [
+      "Verbal Reasoning",
+      "strategic",
+      "manager",
+      "Business Communication",
+      "senior",
+      "business",
+      "reading",
+      "communication",
+      "executive",
+      "verbal",
+      "Reading Comprehension"
+    ]
+  },
+  {
+    "name": "ADEPT-15 Personality Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/adept-15/",
+    "description": "15-factor personality assessment measuring key traits relevant to workplace behavior, performance, and culture fit. Alternative to OPQ for broader personality assessment.",
+    "test_type": "P",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional",
+      "manager"
+    ],
+    "skills": [
+      "ADEPT",
+      "character",
+      "traits",
+      "Personality",
+      "behavior",
+      "personality",
+      "work style",
+      "assessment",
+      "Work Style",
+      "Culture Fit",
+      "culture fit",
+      "Behavioral Traits"
+    ]
+  },
+  {
+    "name": "Cognitive Ability Assessment (CAA)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/cognitive-ability-assessment/",
+    "description": "Comprehensive cognitive ability battery. Measures reasoning, memory, attention, and processing speed. Suitable for high-stakes selection.",
+    "test_type": "A",
+    "job_levels": [
+      "entry",
+      "graduate",
+      "mid-professional",
+      "manager"
+    ],
+    "skills": [
+      "Attention",
+      "Reasoning",
+      "attention",
+      "reasoning",
+      "Processing Speed",
+      "cognitive",
+      "processing",
+      "IQ",
+      "Cognitive Ability",
+      "Memory",
+      "memory",
+      "comprehensive",
+      "mental ability"
+    ]
+  },
+  {
+    "name": "Dependability & Safety Instrument (DSI)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/dependability-and-safety-instrument/",
+    "description": "Measures dependability, integrity, and safety attitudes. Predicts counterproductive work behavior and absenteeism. Used in safety-critical and high-trust roles.",
+    "test_type": "P",
+    "job_levels": [
+      "entry",
+      "graduate"
+    ],
+    "skills": [
+      "Integrity",
+      "Safety Attitude",
+      "counterproductive",
+      "Counterproductive Work Behavior",
+      "Dependability",
+      "reliability",
+      "safety",
+      "absenteeism",
+      "dependability",
+      "security",
+      "trust",
+      "honesty",
+      "integrity"
+    ]
+  }
+]

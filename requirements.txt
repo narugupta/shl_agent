@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+requests
+beautifulsoup4
+faiss-cpu
+sentence-transformers
+numpy
+groq
+pytest
+httpx
+rapidfuzz
+rank-bm25

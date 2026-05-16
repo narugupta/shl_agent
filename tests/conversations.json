@@ -1,0 +1,46 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hiring a senior Java developer with stakeholder interaction"
+      }
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hiring a sales manager with leadership responsibilities"
+      }
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hiring a customer support executive"
+      }
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Compare OPQ and GSA"
+      }
+    ]
+  },
+
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need an assessment"
+      }
+    ]
+  }
+]
