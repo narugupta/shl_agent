@@ -5,40 +5,150 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
+# CPU mode keeps Render lightweight
+model = SentenceTransformer(
+    "all-MiniLM-L6-v2",
+    device="cpu"
+)
 
 
-with open("app/data/catalog.json", "r", encoding="utf-8") as f:
+with open(
+    "app/data/catalog.json",
+    "r",
+    encoding="utf-8"
+) as f:
+
     catalog = json.load(f)
 
 
 documents = []
 
+
 for item in catalog:
-    text = f"""
-    {item['name']}
-    {item['description']}
-    {item['test_type']}
+
+    keys = " ".join(
+        item.get("keys", [])
+    )
+
+    job_levels = " ".join(
+        item.get("job_levels", [])
+    )
+
+    duration = str(
+        item.get("duration", "")
+    )
+
+    remote = str(
+        item.get("remote", "")
+    )
+
+    adaptive = str(
+        item.get("adaptive", "")
+    )
+
+    # Category inference improves retrieval filtering
+    category = "general"
+
+    lower_keys = keys.lower()
+
+    if "personality" in lower_keys:
+        category = "personality"
+
+    elif "simulation" in lower_keys:
+        category = "simulation"
+
+    elif (
+        "knowledge" in lower_keys or
+        "skills" in lower_keys
+    ):
+        category = "technical"
+
+    elif "ability" in lower_keys:
+        category = "cognitive"
+
+    item["category"] = category
+
+    retrieval_text = f"""
+    Name:
+    {item.get('name', '')}
+
+    Description:
+    {item.get('description', '')}
+
+    Test Type:
+    {item.get('test_type', '')}
+
+    Categories:
+    {keys}
+
+    Job Levels:
+    {job_levels}
+
+    Duration:
+    {duration}
+
+    Remote Testing:
+    {remote}
+
+    Adaptive:
+    {adaptive}
+
+    Category:
+    {category}
     """
 
-    documents.append(text)
+    documents.append(
+        retrieval_text
+    )
 
 
 if not documents:
+
     raise ValueError(
         "No documents found. Check catalog.json"
     )
 
-vectors = model.encode(documents)
 
-vectors = np.array(vectors).astype("float32")
+vectors = model.encode(
+    documents,
+    show_progress_bar=True
+)
+
+
+vectors = np.array(
+    vectors
+).astype("float32")
+
 
 dimension = vectors.shape[1]
 
-index = faiss.IndexFlatL2(dimension)
+
+index = faiss.IndexFlatL2(
+    dimension
+)
+
 
 index.add(vectors)
 
-faiss.write_index(index, "app/data/faiss.index")
 
-print("FAISS index built")
+faiss.write_index(
+    index,
+    "app/data/faiss.index"
+)
+
+
+# Save updated catalog with category field
+with open(
+    "app/data/catalog.json",
+    "w",
+    encoding="utf-8"
+) as f:
+
+    json.dump(
+        catalog,
+        f,
+        indent=2
+    )
+
+
+print("FAISS index built successfully")

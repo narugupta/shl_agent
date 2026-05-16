@@ -1,8 +1,17 @@
 ROLE_MAPPINGS = {
+
     "java developer": [
         "java",
         "backend",
-        "software"
+        "software",
+        "programming"
+    ],
+
+    "python developer": [
+        "python",
+        "backend",
+        "automation",
+        "coding"
     ],
 
     "sales manager": [
@@ -17,15 +26,33 @@ ROLE_MAPPINGS = {
         "support"
     ],
 
-    "data analyst": [
+    "finance analyst": [
+        "finance",
         "analytics",
-        "reasoning",
-        "numerical"
+        "numerical reasoning"
     ],
 
-    "leadership": [
+    "project manager": [
         "leadership",
-        "management"
+        "stakeholder management",
+        "planning"
+    ],
+
+    "business analyst": [
+        "analytics",
+        "communication",
+        "stakeholder"
+    ],
+
+    "hr specialist": [
+        "personality",
+        "communication",
+        "culture fit"
+    ],
+
+    "graduate trainee": [
+        "aptitude",
+        "learning ability"
     ]
 }
 

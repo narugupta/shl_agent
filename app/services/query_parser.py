@@ -15,6 +15,8 @@ def parse_query(text):
         "personality": False,
         "cognitive": False,
         "leadership": False,
+        "simulation": False,
+        "language": None,
         "max_duration": None
     }
 
@@ -29,8 +31,14 @@ def parse_query(text):
     explicit_skills = [
         "java",
         "python",
-        "stakeholder",
+        "aws",
+        "docker",
+        "sql",
+        "angular",
+        "spring",
         "communication",
+        "stakeholder",
+        "analytics",
         "sales",
         "leadership"
     ]
@@ -61,12 +69,25 @@ def parse_query(text):
 
     if (
         "cognitive" in text or
-        "aptitude" in text
+        "aptitude" in text or
+        "reasoning" in text
     ):
         parsed["cognitive"] = True
 
-    if "leadership" in text:
+    if (
+        "leadership" in text or
+        "stakeholder" in text
+    ):
         parsed["leadership"] = True
+
+    if "simulation" in text:
+        parsed["simulation"] = True
+
+    if "spanish" in text:
+        parsed["language"] = "spanish"
+
+    if "english" in text:
+        parsed["language"] = "english"
 
     duration_match = re.search(
         r"(\d+)\s*minutes",

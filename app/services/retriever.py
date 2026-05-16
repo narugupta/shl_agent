@@ -6,7 +6,9 @@ from sentence_transformers import (
     SentenceTransformer
 )
 
-from app.services.catalog import load_catalog
+from app.services.catalog import (
+    load_catalog
+)
 
 
 catalog = load_catalog()
@@ -51,20 +53,55 @@ def semantic_search(query, top_k=20):
     return results
 
 
-def hybrid_retrieve(query, top_k=15):
+def hybrid_retrieve(
+    query,
+    parsed,
+    top_k=15
+):
 
     semantic_results = semantic_search(
         query,
-        top_k=25
+        top_k=30
     )
 
-    scored = []
+    filtered = []
 
     for item in semantic_results:
 
+        category = item.get(
+            "category",
+            "general"
+        )
+
+        if (
+            parsed["personality"] and
+            category != "personality"
+        ):
+            continue
+
+        if (
+            parsed["cognitive"] and
+            category != "cognitive"
+        ):
+            continue
+
+        if (
+            parsed["simulation"] and
+            category != "simulation"
+        ):
+            continue
+
+        filtered.append(item)
+
+    scored = []
+
+    for item in filtered:
+
         searchable = f"""
-        {item['name']}
-        {item['description']}
+        {item.get('name', '')}
+        {item.get('description', '')}
+        {' '.join(item.get('keys', []))}
+        {' '.join(item.get('job_levels', []))}
         """
 
         keyword_score = fuzz.partial_ratio(
@@ -73,6 +110,41 @@ def hybrid_retrieve(query, top_k=15):
         )
 
         final_score = keyword_score
+
+        # Seniority boost
+        if (
+            parsed["seniority"] and
+            parsed["seniority"] in
+            " ".join(
+                item.get(
+                    "job_levels",
+                    []
+                )
+            ).lower()
+        ):
+            final_score += 10
+
+        # Skill boost
+        for skill in parsed["skills"]:
+
+            if skill.lower() in searchable.lower():
+                final_score += 5
+
+        # Leadership boost
+        if (
+            parsed["leadership"] and
+            "leadership" in searchable.lower()
+        ):
+            final_score += 8
+
+        # OPQ32r strategic boost
+        if (
+            parsed["leadership"] or
+            "stakeholder" in query.lower()
+        ):
+
+            if "opq" in item["name"].lower():
+                final_score += 15
 
         scored.append(
             (final_score, item)

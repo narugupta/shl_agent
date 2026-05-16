@@ -1,6 +1,5 @@
 from app.services.state import (
-    build_state,
-    enough_information
+    build_state
 )
 
 from app.services.query_parser import (
@@ -30,6 +29,14 @@ from app.services.recommendation import (
 
 from app.services.llm import (
     generate_reply
+)
+
+from app.services.clarifier import (
+    get_clarification
+)
+
+from app.services.constraints import (
+    detect_constraints
 )
 
 from app.utils.logger import logger
@@ -89,30 +96,18 @@ def orchestrate(messages):
                 "end_of_conversation": False
             }
 
-    # Clarification flow
-    if not enough_information(state):
+    clarification = get_clarification(
+        state,
+        state["query"]
+    )
 
-        if not state["role"]:
+    if clarification:
 
-            return {
-                "reply": (
-                    "What role are you "
-                    "hiring for?"
-                ),
-                "recommendations": [],
-                "end_of_conversation": False
-            }
-
-        if not state["seniority"]:
-
-            return {
-                "reply": (
-                    "What seniority level "
-                    "is the role?"
-                ),
-                "recommendations": [],
-                "end_of_conversation": False
-            }
+        return {
+            "reply": clarification,
+            "recommendations": [],
+            "end_of_conversation": False
+        }
 
     parsed = parse_query(
         state["query"]
@@ -122,6 +117,7 @@ def orchestrate(messages):
 
     retrieved = hybrid_retrieve(
         state["query"],
+        parsed,
         top_k=20
     )
 
@@ -132,7 +128,6 @@ def orchestrate(messages):
 
     context = ""
 
-    # Keep prompt compact for latency
     for item in reranked[:8]:
 
         context += f"""
@@ -143,16 +138,30 @@ DESCRIPTION:
 {item['description'][:350]}
 
 TYPE:
-{item['test_type']}
+{item.get('test_type', 'Unknown')}
 
 URL:
-{item['url']}
+{item.get('url', '')}
 """
 
     reply = generate_reply(
         state["query"],
         context
     )
+
+    constraint_messages = detect_constraints(
+        state["query"]
+    )
+
+    if constraint_messages:
+
+        reply = (
+            "\n".join(
+                constraint_messages
+            )
+            + "\n\n"
+            + reply
+        )
 
     recommendations = (
         build_recommendations(

@@ -1,11 +1,62 @@
-from app.utils.constants import (
-    OFFTOPIC_KEYWORDS,
-    INJECTION_PATTERNS
-)
+OFFTOPIC_KEYWORDS = [
+
+    "tax",
+    "taxes",
+    "crypto",
+    "bitcoin",
+    "medical",
+    "doctor",
+    "hospital",
+    "lawsuit",
+    "legal advice",
+    "politics",
+    "election",
+    "dating",
+    "relationship",
+    "recipe",
+    "travel",
+    "hotel",
+    "movie",
+    "football"
+]
 
 
-def is_offtopic(text: str) -> bool:
+PROMPT_INJECTION_PATTERNS = [
+
+    "ignore previous instructions",
+    "ignore all instructions",
+    "system prompt",
+    "reveal prompt",
+    "bypass restrictions",
+    "act as"
+]
+
+
+def is_offtopic(text):
+
     text = text.lower()
+
+    # Explicit hiring/assessment context
+    allowed_signals = [
+
+        "hiring",
+        "assessment",
+        "candidate",
+        "role",
+        "developer",
+        "manager",
+        "engineer",
+        "employee",
+        "screening",
+        "recruitment",
+        "test"
+    ]
+
+    if any(
+        signal in text
+        for signal in allowed_signals
+    ):
+        return False
 
     return any(
         keyword in text
@@ -13,10 +64,11 @@ def is_offtopic(text: str) -> bool:
     )
 
 
-def is_prompt_injection(text: str) -> bool:
+def is_prompt_injection(text):
+
     text = text.lower()
 
     return any(
         pattern in text
-        for pattern in INJECTION_PATTERNS
+        for pattern in PROMPT_INJECTION_PATTERNS
     )
