@@ -29,7 +29,7 @@ Detailed evaluation methodology is documented in:
 
 ```text
 EVALUATION.md
-
+```
 # Features
 
 ## Conversational Recommendation
