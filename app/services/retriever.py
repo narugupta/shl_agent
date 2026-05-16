@@ -13,6 +13,7 @@ catalog = load_catalog()
 
 model = SentenceTransformer(
     "all-MiniLM-L6-v2"
+    device="cpu"
 )
 
 index = faiss.read_index(
